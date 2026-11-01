@@ -1,14 +1,16 @@
 # 🏦 FlowBank
 
-**Hub Financeiro Móvel com IA** - Hackathon Tech FMU 2025.2
+**Hub Financeiro Móvel** - Hackathon Tech FMU 2025.2
 
 ## 🎯 Diferencial
 Score de Crédito Alternativo baseado em Comportamento Digital - bancarizando quem os bancos tradicionais excluem.
 
 ## 🚀 Tecnologias
 - **Frontend:** Vue 3 + Vuetify 3 + Pinia
-- **Backend:** Node.js + Express
-- **IA:** Categorização NLP + Score ML
+- **Backend:** Node.js + Express (dados em memória, sem banco)
+- **Score e segmentação:** regras sobre o comportamento financeiro do usuário
+
+> **Sobre a pasta `documentacao/`:** é o material de pitch do hackathon e descreve a visão do produto, incluindo IA e machine learning. O MVP deste repositório implementa score e segmentação de campanhas **por regras**, sem modelo de ML.
 
 ## 📦 Como Rodar
 
